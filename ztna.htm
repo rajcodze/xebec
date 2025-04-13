@@ -134,3 +134,31 @@
     © 2025 Xebec Systems. All rights reserved.
   </div>
 </footer>
+<!-- Floating Chat Button -->
+<a href="#contact" class="chat-float-button" title="Let’s Chat">
+  💬 Let’s Chat
+</a>
+
+<style>
+  .chat-float-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: linear-gradient(135deg, #4e8df5, #6cc5ff);
+    color: white;
+    padding: 12px 20px;
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    z-index: 9999;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .chat-float-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+  }
+</style>
+
